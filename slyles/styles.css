@@ -1,1 +1,55 @@
 @import url(./global.css);
+
+/* -----------------------------------------------ATOMIC-------------------------------------------- */
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+justify-between {
+    justify-content: space-between;
+}
+
+/* --------------------------------------------COMPONENTS------------------------------------------ */
+.container {
+    width: calc(1168px + 2rem);
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn{
+    font-family: 'Poppins','sans-serif';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+    border-radius: 14px;
+    padding: 9px 20px 13px 20px;
+}
+
+/* --------------------------------------------HEADER------------------------------------------ */
+
+.header .wrapper {
+    gap: 30px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.navigation{
+    gap: 30px;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.navigation a{
+    font-size: 15px;
+    color: #FFFFFF;
+}

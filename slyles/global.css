@@ -1,5 +1,33 @@
 @import url(../fonts/fonts.css);
 
-h1{
-    font-family: 'Poppins';
- }
+:root {
+    --basik-text-famali: 'Poppins','sans-serif';
+    --basik-text-size: 14px;
+    --basik-text-color: #C0C0C0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: var(--basik-text-famali);
+    font-size: var(--basik-text-size);
+    line-height: 1.43;
+    color: var(--basik-text-color)
+}
+
+body{
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    object-fit: contain;
+}
